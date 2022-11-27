@@ -3,16 +3,16 @@ describe('index.js', function () {
     it('returns an array with title case tutorial names', function () {
       expect(titleCased()).to.have.all.members(
         [
-          "What Does The This Keyword Mean?",
-          "What Is The Constructor OO Pattern?",
-          "Implementing Blockchain Web API",
-          "The Test Driven Development Workflow",
-          "What Is NaN And How Can We Check For It",
-          "What Is The Difference Between StopPropagation And PreventDefault?",
-          "Immutable State And Pure Functions",
-          "What Is The Difference Between == And ===?",
-          "What Is The Difference Between Event Capturing And Bubbling?",
-          "What Is JSONP?"
+          "WHAT DOES THE THIS KEYWORD MEAN?",
+          "WHAT IS THE CONSTRUCTOR OO PATTERN?",
+          "IMPLEMENTING BLOCKCHAIN WEB API",
+          "THE TEST DRIVEN DEVELOPMENT WORKFLOW",
+          "WHAT IS NAN AND HOW CAN WE CHECK FOR IT",
+          "WHAT IS THE DIFFERENCE BETWEEN STOPPROPAGATION AND PREVENTDEFAULT?",
+          "IMMUTABLE STATE AND PURE FUNCTIONS",
+          "WHAT IS THE DIFFERENCE BETWEEN == AND ===?",
+          "WHAT IS THE DIFFERENCE BETWEEN EVENT CAPTURING AND BUBBLING?",
+          "WHAT IS JSONP?"
       ]
       )
     });
